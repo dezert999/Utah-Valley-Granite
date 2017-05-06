@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+ 	<script src="jquery.min.js"></script>
+     <script>
+      // Initialize Firebase
+      var config = {
+	    apiKey: "AIzaSyA4cVsuj9lf0jLYibQ_FHvPhkBrvI3UlTo",
+	    authDomain: "utah-valley-granite.firebaseapp.com",
+	    databaseURL: "https://utah-valley-granite.firebaseio.com",
+	    projectId: "utah-valley-granite",
+	    storageBucket: "utah-valley-granite.appspot.com",
+	    messagingSenderId: "19262954820"
+	  };
+      firebase.initializeApp(config);
+      document.addEventListener("deviceready", function() {
+alert(window.plugins);
+}, false);
+    </script>
+    <script src="main.js"></script>
+    <title>Lifetime Quartz</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- It should be included After main Framework7 styles -->
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- It should be included After main Framework7 styles -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body class="theme-red">
+    <!-- Status bar overlay for fullscreen mode-->
+   <!--  <div class="statusbar-overlay"></div>
+     Panels overlay
+    <div class="panel-overlay"></div> -->
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+       
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <!-- Navbar inner for Index page-->
+          <div data-page="index" class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Utah Valley Granite</div>
+            
+          </div>
+          <!-- Navbar inner for About page-->
+          <div data-page="about" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+          </div>
+          <!-- Navbar inner for Services page-->
+          <div data-page="services" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+          </div>
+          <!-- Navbar inner for Form page-->
+          <div data-page="form" class="navbar-inner cached">
+            <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Index Page-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <center> <img src = "logo.png" style = "width:50%; height:50%"> </center>
+                  <center><p>Utah Valley Granite is your wholesale direct supplier of premium granite, marble, and quartz to the trade.</p></center>
+                </div>
+              </div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="#about" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">About</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#services" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">See what we have in stock</div>
+                        </div>
+                      </div></a></li>
+                  <!-- <li><a href="#contact" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Contact us</div>
+                        </div>
+                      </div></a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- About Page-->
+          <div data-page="about" class="page cached">
+            <div class="page-content">
+              <div class="content-block">
+              	<strong><u style="color: red"> We will stock your shop</u> so customers can select stone at your location leaving no need to send them to tile companies who overcharge you the fabricator! In addition, <u style="color: red"> we offer you the fabricator terms and consignment</u> so that your inventory appears larger, helping your company grow. All the while saving you thousands of dollars per week in material costs. </strong>
+                <p>Utah Valley Granite has over 172 colors to choose from. We’re ready to help you find the perfect stone with our same day delivery and friendly customer service.</p>
+                <p>Utah Valley Granite is proud to offer beautiful granite, marble and quartz slabs at wholesale prices. We purchase our stone in very large runs so we have a massive selection and can offer wholesale pricing to retail customers.</p>
+                <p>We invite you to visit our showroom located at 555 West 220 South Pleasant Grove, UT 84062 (Next to Pleasant Grove Rodeo Grounds, just off of State Street). By visiting us in person you will be able to accurately see the quality and affordability we offer.</p>
+                <p style="font-size: 15px"> Give us a call at: <a href="tel:+1-801-477-5132"><strong>(801) 477-5132</strong></a> </p>
+                <p style="font-size: 15px"> Check out our website: <a href="UtahValleyGranite.com">UtahValleyGranite.com </a></p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Page-->
+          <div data-page="services" class="page cached">
+            <div class="page-content">
+            <center>
+              <div class="content-block" id = "posts">
+              <script type="text/javascript">
+              firebase.database().ref("/GraniteCount").once('value').then(function(snapshot){
+                var count = snapshot.val();
+                console.log(count+" count");
+                for(var i=0; i<=count-1; i++){
+                  console.log(i+" i")
+                  showGranite(i+1);
+                }
+              })
+              </script>
+              </div>
+              </center>
+            </div>
+          </div>
+ 
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+         <!-- <div class="toolbar-inner"><a class="link"> </a> <a class="button icon-left ion-ios7-telephone button-calm button-outline" href="tel:+1-800-555-1234">Call Us</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
