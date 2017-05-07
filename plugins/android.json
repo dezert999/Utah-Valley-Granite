@@ -10,6 +10,9 @@
         "call-number": {
             "PACKAGE_NAME": "com.lifetimequartz"
         },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.lifetimequartz"
+        },
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.lifetimequartz"
         },
@@ -17,6 +20,9 @@
             "PACKAGE_NAME": "com.lifetimequartz"
         },
         "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.lifetimequartz"
+        },
+        "cordova-plugin-contacts": {
             "PACKAGE_NAME": "com.lifetimequartz"
         },
         "cordova-plugin-device": {
@@ -66,7 +72,7 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.lifetimequartz"
-        },
+        }
     },
     "dependent_plugins": {}
 }

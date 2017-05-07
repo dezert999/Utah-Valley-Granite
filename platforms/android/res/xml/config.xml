@@ -3,6 +3,9 @@
     <feature name="CallNumber">
         <param name="android-package" value="mx.ferreyra.callnumber.CFCallNumber" />
     </feature>
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
@@ -64,12 +67,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="Permissions">
-        <param name="android-package" value="com.android.plugins.Permissions" />
-    </feature>
     <name>Lifetime Quartz</name>
     <description>Hello World sample application that responds to the deviceready event.</description>
-    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
+    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap TeGET_ACCOUNTSam</author>
     <content src="index.html" />
     <icon src="icon.png" />
     <access launch-external="true" origin="tel:*" />
