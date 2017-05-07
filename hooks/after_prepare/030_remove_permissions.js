@@ -29,7 +29,7 @@
             return console.log( err );
 
         var result = data;
-        for (var i=0; i, "" );
+        for (var i=0; i", "" );
 
         fs.writeFile( manifestFile, result, "utf8", function( err )
         {
