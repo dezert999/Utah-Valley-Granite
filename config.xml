@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.lifetimequartz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <gap:config-file platform="android" parent="/manifest" mode="delete">
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+</gap:config-file>
     <name>Lifetime Quartz</name>
     <description>Hello World sample application that responds to the deviceready event.</description>
-    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
+    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap TeGET_ACCOUNTSam</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="DisallowOverscroll" value="true" />
@@ -133,4 +139,10 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
     <engine name="android" spec="~6.2.3" />
     <plugin name="cordova-plugin-android-permissions" spec="~0.11.0" />
+    <gap:config-file platform="android" parent="/manifest" mode="delete">
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+</gap:config-file>
 </widget>
