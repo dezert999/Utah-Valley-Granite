@@ -6,10 +6,6 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {
-        "cordova-plugin-android-permissions": {
-            "PACKAGE_NAME": "com.lifetimequartz"
-        }
-    },
+    "installed_plugins": {},
     "dependent_plugins": {}
 }

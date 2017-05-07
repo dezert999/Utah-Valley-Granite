@@ -7,13 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.lifetimequartz"
-        },
         "call-number": {
-            "PACKAGE_NAME": "com.lifetimequartz"
-        },
-        "cordova-plugin-android-permissions": {
             "PACKAGE_NAME": "com.lifetimequartz"
         }
     },
@@ -37,8 +31,6 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
-        "call-number": "0.0.2",
-        "cordova-plugin-android-permissions": "0.11.0"
+        "call-number": "0.0.2"
     }
 }
