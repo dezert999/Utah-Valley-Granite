@@ -21,7 +21,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.2",
-    "call-number": "0.0.2"
+    "call-number": "0.0.2",
+    "cordova-plugin-android-permissions": "0.11.0"
 }
 // BOTTOM OF METADATA
 });

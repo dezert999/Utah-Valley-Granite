@@ -132,4 +132,5 @@
     <allow-intent href="tel:*" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
     <engine name="android" spec="~6.2.3" />
+    <plugin name="cordova-plugin-android-permissions" spec="~0.11.0" />
 </widget>

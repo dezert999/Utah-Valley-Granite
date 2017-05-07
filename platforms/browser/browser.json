@@ -12,6 +12,9 @@
         },
         "call-number": {
             "PACKAGE_NAME": "com.lifetimequartz"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.lifetimequartz"
         }
     },
     "dependent_plugins": {},
@@ -35,6 +38,7 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.2",
-        "call-number": "0.0.2"
+        "call-number": "0.0.2",
+        "cordova-plugin-android-permissions": "0.11.0"
     }
 }
