@@ -139,10 +139,4 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
     <engine name="android" spec="~6.2.3" />
     <plugin name="cordova-plugin-android-permissions" spec="~0.11.0" />
-    <gap:config-file platform="android" parent="/manifest" mode="delete">
-  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-  <uses-permission android:name="android.permission.READ_CONTACTS"/>
-</gap:config-file>
 </widget>
